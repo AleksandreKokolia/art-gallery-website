@@ -1,0 +1,594 @@
+/* !useful */
+.section_tittle {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 5.5rem;
+}
+
+.section_p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+
+  font-size: 1.8rem;
+  color: #444;
+}
+.container {
+  padding: 0 1.6rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/*! _____________________________________________________________ */
+
+/*? section hero  */
+
+.hero_section {
+  padding-bottom: 12rem;
+}
+
+.black_block {
+  display: none;
+}
+.hero_grid {
+  /* padding: 0 1.6rem; */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero_tittle {
+  color: #151515;
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.hero_image {
+  background-image: url("/img/Rectangle.jpg");
+  /* max-width: 437px; */
+  height: 240px;
+  background-size: cover;
+}
+.description {
+  margin-bottom: 3.2rem;
+}
+.hero_image {
+}
+.hero_text {
+  padding-top: 3.6rem;
+}
+.hero_btn {
+  padding: 1.2rem;
+  color: #fff;
+  background-color: black;
+}
+
+.hero_button {
+  /* width: 200px; */
+  display: flex;
+}
+.open_button {
+  font-size: 2rem;
+  color: #fff;
+  padding: 2.4rem 3.5rem 2.4rem 3.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #151515;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.64px;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+.open {
+}
+
+.hero_button:hover .open_button,
+.hero_button:active .open_button {
+  background-color: #d5966c;
+  color: #fff;
+}
+
+.hero_button:hover .hero_icon,
+.hero_button:active .hero_icon {
+  background-color: #151515;
+  color: #fff;
+}
+
+.hero_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.4rem;
+
+  background-color: #d5966c;
+}
+.arrow_icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #fff;
+}
+/*? ________________________________________________________________ */
+/* medias */
+
+@media (min-width: 766px) {
+  .hero_section {
+    padding-bottom: 18rem;
+  }
+
+  .hero_grid {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+  }
+  .container {
+    padding: 0;
+  }
+
+  .hero_image {
+    background-image: url("/img/Rectangle tablet.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .section_tittle {
+    margin-bottom: 4.8rem;
+  }
+
+  .description {
+    margin-bottom: 4.8rem;
+    max-width: 34rem;
+  }
+
+  .section_p {
+  }
+  .hero_text {
+    padding-top: 0;
+  }
+  .hero_section {
+    position: relative;
+  }
+
+  .hero_text {
+    transform: translate(95%, -50%);
+    top: 50%;
+    right: 50%;
+    position: absolute;
+    min-width: 410px;
+  }
+  .hero_description {
+    position: absolute;
+    min-width: 410;
+    left: 389px;
+    top: 323px;
+  }
+
+  .hero_tittle {
+    position: absolute;
+    min-width: 410px;
+
+    top: 145px;
+    left: 389px;
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 65px;
+    margin-bottom: 4.8rem;
+  }
+}
+@media (min-width: 1430px) {
+  .hero_grid {
+    grid-template-columns: 1fr 1.2fr 1fr;
+    padding: 0 1.6rem;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .black_block {
+    display: block;
+    width: 100%;
+
+    background-color: #151515;
+  }
+
+  .hero_image {
+    background-image: url("./img/desktop.png");
+    background-position: center;
+    max-width: 700px;
+    background-size: cover;
+    height: 800px;
+  }
+
+  .hero_grid {
+    position: relative;
+  }
+
+  .hero_description {
+    position: absolute;
+    top: 190px;
+    left: 925px;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .hero_tittle {
+    position: absolute;
+    top: 190px;
+    left: 165px;
+    font-size: 96px;
+    line-height: 88px;
+    mix-blend-mode: difference;
+    color: #fff;
+  }
+}
+
+/* section gallery */
+
+.gallery_section {
+  padding-bottom: 12rem;
+}
+.gallery_grid {
+  display: grid;
+  gap: 1.6rem;
+}
+.gallery_item {
+}
+.gallery_text {
+}
+.gallery_tittle {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 4.5rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  margin-bottom: 2.1rem;
+  text-transform: uppercase;
+}
+.gallery_p {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.gallery_img {
+  width: 100%;
+}
+
+.gallery_box {
+  background-color: #151515;
+  padding: 4.8rem 2.4rem;
+}
+.gallery_box_tittle {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 45px;
+  margin-bottom: 2.4rem;
+  color: #fff;
+}
+.gallery_box_p {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media (min-width: 766px) {
+  .gallery_section {
+    padding-bottom: 18rem;
+  }
+
+  .gallery_grid {
+    /* grid-template-columns: 289px 120px 280px; */
+    grid-template-columns: 2fr 1fr 2fr;
+    padding: 0 1.6rem;
+    justify-content: center;
+  }
+
+  .gallery_img {
+    width: 100%;
+  }
+
+  .gallery_text {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .Copy_6 {
+    grid-column: 2/4;
+  }
+
+  .Copy_2 {
+    grid-column: 1/3;
+  }
+
+  .Copy_3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 50%;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .gallery_box {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 50%;
+    align-self: end;
+  }
+
+  .gallery_tittle {
+    font-style: 5rem;
+    line-height: 45px;
+    margin-bottom: 2.4rem;
+    font-weight: 900;
+    margin-bottom: 3.2rem;
+  }
+  .gallery_p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .gallery_text {
+    padding: 9rem 0;
+  }
+}
+
+@media (min-width: 1430px) {
+  .gallery_grid {
+    padding: 0 16.5rem;
+    gap: 3rem;
+  }
+  .gallery_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 12.5rem 6rem 0;
+  }
+
+  .gallery_tittle {
+    font-size: 6rem;
+    line-height: 60px;
+  }
+  .gallery_p {
+    font-size: 2.2rem;
+    line-height: 32px;
+  }
+
+  .gallery_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4.8rem;
+  }
+  .gallery_box_tittle {
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 60px;
+  }
+  .gallery_box_p {
+    font-size: 2.2rem;
+    line-height: 32px;
+    font-weight: 400;
+  }
+}
+/* ---------------------------------------------------- */
+/* ? footer  */
+.footer {
+  background-color: #151515;
+  padding: 4.8rem 3.2rem;
+}
+.footer_grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+}
+.footer_tittle {
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.footer_p {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+.social_media {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.footer_logo {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+}
+
+.footer_logo:hover,
+.footer_logo:active {
+  color: #d5966c;
+}
+
+@media (min-width: 766px) {
+  .footer {
+    padding: 5.6rem 4rem;
+  }
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .social_media {
+    justify-self: end;
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 1430px) {
+  .footer {
+    padding: 8rem 16.5rem;
+  }
+
+  .footer_p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+/* ------------------------------------- */
+/* our_location */
+.location_img {
+  background-image: url("img/mobile-map.jpg");
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+}
+
+.locate {
+  position: relative;
+}
+.hero_button {
+}
+
+.close_button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.locate_description {
+  background-color: #151515;
+}
+.description_tittle {
+  color: #fff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 45px;
+  margin-bottom: 4.8rem;
+}
+.description_location {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #d5966c;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 32px;
+}
+.description_ip-adress li {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.description_p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+
+.locate_description {
+  padding: 4.8rem 1.6rem 5.6rem 1.6rem;
+}
+
+.locate_footer {
+  background-color: #d5966c;
+}
+
+.locate_footer_tittle {
+  color: #151515;
+}
+.locate_footer_p {
+  color: #151515;
+}
+.locate_logo {
+  color: #151515;
+}
+
+.locate_logo:hover,
+.locate_logo:active {
+  color: #fff;
+}
+
+@media (min-width: 766px) {
+  .close_button {
+    left: 3.6rem;
+  }
+
+  .location_img {
+    width: 100%;
+    background-image: url("img/mobile-map.jpg");
+    height: 768px;
+    background-size: cover;
+  }
+
+  .locate_description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8.8rem 4rem 8rem 4rem;
+  }
+
+  .description_tittle {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 50px;
+  }
+
+  .description_tittle {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1430px) {
+  .location_img {
+    width: 100%;
+    background-image: url("img/Maps.jpg");
+    height: 600px;
+    background-size: cover;
+  }
+
+  .close_button {
+    left: 15.6rem;
+  }
+
+  .locate_description {
+    padding: 10.5rem 16.5rem 12.8rem 16.5rem;
+  }
+
+  .description_location {
+    font-size: 3.6rem;
+    font-weight: 900;
+    line-height: 36px;
+  }
+  .description_ip-adress li {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .description_p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+
+/*
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
