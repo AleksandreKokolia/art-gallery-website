@@ -1,3 +1,3 @@
-#art-gallery-webside
+# art-gallery-webside
 
 https://aleksandrekokolia.github.io/art-gallery-website/
